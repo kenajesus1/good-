@@ -3,6 +3,18 @@
     padding: 0;
 }
 
+.WebContainer {
+    width: 100%;
+    height: auto;
+}
+
+.articles {
+    width: 90%;
+    /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+}
+
 .main {
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(tf.jpg);
